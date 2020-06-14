@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 
-axios.defaults.baseURL = "http://203.195.130.217:7001/api"
+axios.defaults.baseURL = "http://127.0.0.1:7001/api"
 
 // 前置拦截
 axios.interceptors.request.use(config => {
